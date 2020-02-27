@@ -1,0 +1,32 @@
+{
+  "minecraft:recipes/food/bread": {
+    "criteria": {
+      "has_wheat": "2020-02-25 22:52:05 -0500"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2020-02-25 22:52:12 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2020-02-25 22:52:05 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "forest": "2020-02-25 22:52:05 -0500"
+    },
+    "done": false
+  },
+  "sexmod:enlightenment": {
+    "criteria": {
+      "enlightenment": "2020-02-25 22:52:58 -0500"
+    },
+    "done": true
+  }
+}

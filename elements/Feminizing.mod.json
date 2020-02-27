@@ -1,0 +1,30 @@
+{
+  "_fv": 5,
+  "_type": "potion",
+  "definition": {
+    "name": "Feminizing",
+    "effectName": "Feminizing",
+    "icon": "tflag.png",
+    "color": {
+      "value": -26113,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": false,
+    "isBenefitical": false,
+    "registerPotionType": true,
+    "curativeItems": [
+      {
+        "value": "Items.MILK_BUCKET"
+      }
+    ],
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onStarted": {
+      "name": "FeminizingPotionStartedapplied"
+    },
+    "onExpired": {
+      "name": "FeminizingPotionExpires"
+    }
+  }
+}

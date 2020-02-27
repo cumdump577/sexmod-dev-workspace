@@ -1,0 +1,25 @@
+{
+  "_fv": 5,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 352,
+    "height": 332,
+    "renderBgLayer": false,
+    "containerBlock": "<none>",
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "text": "Vanilla Sex",
+          "width": 220,
+          "height": 40,
+          "name": "Vanilla Sex",
+          "x": 319,
+          "y": 76
+        }
+      }
+    ],
+    "inventories": []
+  }
+}

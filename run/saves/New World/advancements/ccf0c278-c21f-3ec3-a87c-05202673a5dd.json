@@ -1,0 +1,14 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "forest": "2020-02-27 09:54:33 -0500"
+    },
+    "done": false
+  },
+  "sexmod:enlightenment": {
+    "criteria": {
+      "enlightenment": "2020-02-27 09:54:40 -0500"
+    },
+    "done": true
+  }
+}

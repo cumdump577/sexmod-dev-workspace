@@ -1,0 +1,812 @@
+Processing 28 files
+Start Processing: net/mcreator/sexmod/ClientProxysexmod.java
+Import: net.minecraftforge.fml.common.event.FMLServerStartingEvent
+Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLInitializationEvent
+Import: net.minecraftforge.client.model.obj.OBJLoader
+End  Processing: net/mcreator/sexmod/ClientProxysexmod.java
+
+Start Processing: net/mcreator/sexmod/Elementssexmod.java
+New Key: class net/minecraftforge/fml/common/discovery/ASMDataTable
+New Key: class net/mcreator/sexmod/Elementssexmod/ModElement
+New Key: class net/mcreator/sexmod/Elementssexmod
+New Key: class net/mcreator/sexmod/Elementssexmod
+New Key: class net/mcreator/sexmod/Elementssexmod
+New Key: class net/mcreator/sexmod/sexmodVariables
+New Key: class net/mcreator/sexmod/sexmodVariables
+New Key: class net/minecraftforge/event/RegistryEvent
+Rename field net/minecraft/world/World/provider[3261,3269]::provider->field_73011_w
+Rename field net/minecraft/entity/Entity/world[3650,3655]::world->field_70170_p
+Rename field net/minecraft/world/World/isRemote[3664,3672]::isRemote->field_72995_K
+New Key: class net/mcreator/sexmod/sexmodVariables
+Rename field net/minecraft/entity/Entity/world[3756,3761]::world->field_70170_p
+New Key: class net/mcreator/sexmod/sexmodVariables
+Rename field net/minecraft/entity/Entity/world[3851,3856]::world->field_70170_p
+New Key: class net/mcreator/sexmod/sexmodVariables
+New Key: class net/mcreator/sexmod/sexmodVariables
+Rename field net/minecraft/entity/Entity/world[4349,4354]::world->field_70170_p
+Rename field net/minecraft/world/World/isRemote[4363,4371]::isRemote->field_72995_K
+New Key: class net/mcreator/sexmod/sexmodVariables
+Rename field net/minecraft/entity/Entity/world[4459,4464]::world->field_70170_p
+New Key: class net/mcreator/sexmod/sexmodVariables
+New Key: class net/mcreator/sexmod/MCreatorSexgui
+New Key: class net/mcreator/sexmod/MCreatorSexgui
+FOUND CONSTR method net/mcreator/sexmod/Elementssexmod/ModElement/ModElement (Lnet/mcreator/sexmod/Elementssexmod;I)V net/mcreator/sexmod/Elementssexmod/ModElement
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.EntityEntry
+Import: net.minecraftforge.fml.common.network.simpleimpl.IMessageHandler
+Import: net.minecraftforge.fml.common.network.simpleimpl.IMessage
+Import: net.minecraftforge.fml.common.network.IGuiHandler
+Import: net.minecraftforge.fml.common.eventhandler.SubscribeEvent
+Import: net.minecraftforge.fml.common.event.FMLServerStartingEvent
+Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLInitializationEvent
+Import: net.minecraftforge.fml.common.discovery.ASMDataTable
+Import: net.minecraftforge.fml.common.IWorldGenerator
+Import: net.minecraftforge.fml.common.IFuelHandler
+Import: net.minecraftforge.event.RegistryEvent
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Adding 16 imports
+        java.util.ArrayList
+        java.util.Collections
+        java.util.List
+        java.util.Random
+        java.util.function.Supplier
+        net.minecraft.block.Block
+        net.minecraft.entity.player.EntityPlayer
+        net.minecraft.entity.player.EntityPlayerMP
+        net.minecraft.item.Item
+        net.minecraft.item.ItemStack
+        net.minecraft.potion.Potion
+        net.minecraft.world.World
+        net.minecraft.world.biome.Biome
+        net.minecraft.world.chunk.IChunkProvider
+        net.minecraft.world.gen.IChunkGenerator
+        net.minecraft.world.storage.WorldSavedData
+End  Processing: net/mcreator/sexmod/Elementssexmod.java
+
+Start Processing: net/mcreator/sexmod/IProxysexmod.java
+Import: net.minecraftforge.fml.common.event.FMLServerStartingEvent
+Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLInitializationEvent
+End  Processing: net/mcreator/sexmod/IProxysexmod.java
+
+Start Processing: net/mcreator/sexmod/MCreatorBondagegear.java
+New Key: class net/mcreator/sexmod/Elementssexmod
+New Key: class net/mcreator/sexmod/Elementssexmod
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/sexmod/MCreatorBondagegear/MCreatorBondagegear (Lnet/mcreator/sexmod/Elementssexmod;)V net/mcreator/sexmod/MCreatorBondagegear
+New Key: class net/minecraft/item/ItemArmor
+Rename field net/minecraft/util/SoundEvent/REGISTRY[1418,1426]::REGISTRY->field_187505_a
+Rename method net/minecraft/util/registry/IRegistry/getObject (Ljava/lang/Object;)Ljava/lang/Object;[1433,1442]::getObject->func_82594_a
+Rename method net/minecraft/item/Item/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/item/Item;[1558,1576]::setUnlocalizedName->func_77655_b
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[1635,1649]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/item/Item;[1749,1767]::setUnlocalizedName->func_77655_b
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[1822,1836]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/item/Item;[1935,1953]::setUnlocalizedName->func_77655_b
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[2008,2022]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/item/Item;[2121,2139]::setUnlocalizedName->func_77655_b
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[2196,2210]::setCreativeTab->func_77637_a
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.common.util.EnumHelper
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Adding 5 imports
+        net.minecraft.client.renderer.block.model.ModelResourceLocation
+        net.minecraft.inventory.EntityEquipmentSlot
+        net.minecraft.item.Item
+        net.minecraft.item.ItemArmor
+        net.minecraft.util.ResourceLocation
+End  Processing: net/mcreator/sexmod/MCreatorBondagegear.java
+
+Start Processing: net/mcreator/sexmod/MCreatorChalice.java
+New Key: class net/mcreator/sexmod/Elementssexmod
+New Key: class net/mcreator/sexmod/Elementssexmod
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/sexmod/MCreatorChalice/MCreatorChalice (Lnet/mcreator/sexmod/Elementssexmod;)V net/mcreator/sexmod/MCreatorChalice
+FOUND CONSTR method net/mcreator/sexmod/MCreatorChalice/ItemCustom/ItemCustom ()V net/mcreator/sexmod/MCreatorChalice/ItemCustom
+Rename method net/minecraft/item/Item/setMaxDamage (I)Lnet/minecraft/item/Item;[1158,1170]::setMaxDamage->func_77656_e
+Rename field net/minecraft/item/Item/maxStackSize[1179,1191]::maxStackSize->field_77777_bU
+Rename method net/minecraft/item/Item/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/item/Item;[1204,1222]::setUnlocalizedName->func_77655_b
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[1265,1279]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/getItemEnchantability ()I[1333,1354]::getItemEnchantability->func_77619_b
+Rename method net/minecraft/item/Item/getMaxItemUseDuration (Lnet/minecraft/item/ItemStack;)I[1398,1419]::getMaxItemUseDuration->func_77626_a
+Rename method net/minecraft/item/Item/getDestroySpeed (Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F[1484,1499]::getDestroySpeed->func_150893_a
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Adding 4 imports
+        net.minecraft.block.state.IBlockState
+        net.minecraft.client.renderer.block.model.ModelResourceLocation
+        net.minecraft.item.Item
+        net.minecraft.item.ItemStack
+End  Processing: net/mcreator/sexmod/MCreatorChalice.java
+
+Start Processing: net/mcreator/sexmod/MCreatorChaliceRightClickedOnBlock.java
+New Key: class net/mcreator/sexmod/Elementssexmod
+New Key: class net/mcreator/sexmod/Elementssexmod
+FOUND CONSTR method net/mcreator/sexmod/MCreatorChaliceRightClickedOnBlock/MCreatorChaliceRightClickedOnBlock (Lnet/mcreator/sexmod/Elementssexmod;)V net/mcreator/sexmod/MCreatorChaliceRightClickedOnBlock
+Rename method net/minecraft/entity/EntityLivingBase/getHeldItemMainhand ()Lnet/minecraft/item/ItemStack;[1670,1689]::getHeldItemMainhand->func_184614_ca
+Rename field net/minecraft/item/ItemStack/EMPTY[1699,1704]::EMPTY->field_190927_a
+Rename method net/minecraft/item/ItemStack/getItem ()Lnet/minecraft/item/Item;[1715,1722]::getItem->func_77973_b
+Rename method net/minecraft/item/ItemStack/getItem ()Lnet/minecraft/item/Item;[1787,1794]::getItem->func_77973_b
+Rename method net/minecraft/world/World/setBlockState (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)Z[1816,1829]::setBlockState->func_180501_a
+Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[1889,1904]::getDefaultState->func_176223_P
+Import: net.minecraft.world.World
+Import: net.minecraft.util.math.BlockPos
+Import: net.minecraft.item.ItemStack
+Import: net.minecraft.entity.EntityLivingBase
+Import: net.minecraft.entity.Entity
+End  Processing: net/mcreator/sexmod/MCreatorChaliceRightClickedOnBlock.java
+
+Start Processing: net/mcreator/sexmod/MCreatorCum.java
+New Key: class net/mcreator/sexmod/Elementssexmod
+New Key: class net/mcreator/sexmod/Elementssexmod
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/sexmod/MCreatorCum/MCreatorCum (Lnet/mcreator/sexmod/Elementssexmod;)V net/mcreator/sexmod/MCreatorCum
+Rename field net/minecraft/block/material/Material/WATER[1862,1867]::WATER->field_151586_h
+Rename method net/minecraft/block/Block/onEntityCollidedWithBlock (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/Entity;)V[1910,1935]::onEntityCollidedWithBlock->func_180634_a
+Rename method net/minecraft/block/Block/onEntityCollidedWithBlock (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/entity/Entity;)V[1998,2023]::onEntityCollidedWithBlock->func_180634_a
+Rename method net/minecraft/util/math/Vec3i/getX ()I[2057,2061]::getX->func_177958_n
+Rename method net/minecraft/util/math/Vec3i/getY ()I[2091,2095]::getY->func_177956_o
+Rename method net/minecraft/util/math/Vec3i/getZ ()I[2125,2129]::getZ->func_177952_p
+Rename method net/minecraft/block/Block/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/block/Block;[2394,2412]::setUnlocalizedName->func_149663_c
+Rename method net/minecraft/client/renderer/ItemMeshDefinition/getModelLocation (Lnet/minecraft/item/ItemStack;)Lnet/minecraft/client/renderer/block/model/ModelResourceLocation;[2933,2949]::getModelLocation->func_178113_a
+Rename method net/minecraft/client/renderer/block/statemap/StateMapperBase/getModelResourceLocation (Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/client/renderer/block/model/ModelResourceLocation;[3156,3180]::getModelResourceLocation->func_178132_a
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+Import: net.minecraftforge.fluids.FluidRegistry
+Import: net.minecraftforge.fluids.Fluid
+Import: net.minecraftforge.fluids.BlockFluidClassic
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Adding 14 imports
+        net.minecraft.block.Block
+        net.minecraft.block.material.Material
+        net.minecraft.block.state.IBlockState
+        net.minecraft.client.renderer.ItemMeshDefinition
+        net.minecraft.client.renderer.block.model.ModelBakery
+        net.minecraft.client.renderer.block.model.ModelResourceLocation
+        net.minecraft.client.renderer.block.statemap.StateMapperBase
+        net.minecraft.entity.Entity
+        net.minecraft.item.Item
+        net.minecraft.item.ItemBlock
+        net.minecraft.item.ItemStack
+        net.minecraft.util.ResourceLocation
+        net.minecraft.util.math.BlockPos
+        net.minecraft.world.World
+End  Processing: net/mcreator/sexmod/MCreatorCum.java
+
+Start Processing: net/mcreator/sexmod/MCreatorCumBlockAdded.java
+New Key: class net/mcreator/sexmod/Elementssexmod
+New Key: class net/mcreator/sexmod/Elementssexmod
+FOUND CONSTR method net/mcreator/sexmod/MCreatorCumBlockAdded/MCreatorCumBlockAdded (Lnet/mcreator/sexmod/Elementssexmod;)V net/mcreator/sexmod/MCreatorCumBlockAdded
+Rename field net/minecraft/entity/player/EntityPlayerMP/mcServer[952,960]::mcServer->field_71133_b
+Rename method net/minecraft/server/MinecraftServer/getAdvancementManager ()Lnet/minecraft/advancements/AdvancementManager;[967,988]::getAdvancementManager->func_191949_aK
+Rename method net/minecraft/advancements/AdvancementManager/getAdvancement (Lnet/minecraft/util/ResourceLocation;)Lnet/minecraft/advancements/Advancement;[984,998]::getAdvancement->func_192778_a
+Rename method net/minecraft/entity/player/EntityPlayerMP/getAdvancements ()Lnet/minecraft/advancements/PlayerAdvancements;[1108,1123]::getAdvancements->func_192039_O
+Rename method net/minecraft/advancements/PlayerAdvancements/getProgress (Lnet/minecraft/advancements/Advancement;)Lnet/minecraft/advancements/AdvancementProgress;[1124,1135]::getProgress->func_192747_a
+Rename method net/minecraft/advancements/AdvancementProgress/isDone ()Z[1158,1164]::isDone->func_192105_a
+Rename method net/minecraft/advancements/AdvancementProgress/getRemaningCriteria ()Ljava/lang/Iterable;[1207,1226]::getRemaningCriteria->func_192107_d
+Rename method net/minecraft/entity/player/EntityPlayerMP/getAdvancements ()Lnet/minecraft/advancements/PlayerAdvancements;[1355,1370]::getAdvancements->func_192039_O
+Rename method net/minecraft/advancements/PlayerAdvancements/grantCriterion (Lnet/minecraft/advancements/Advancement;Ljava/lang/String;)Z[1371,1385]::grantCriterion->func_192750_a
+Import: net.minecraft.util.ResourceLocation
+Import: net.minecraft.server.MinecraftServer
+Import: net.minecraft.entity.player.EntityPlayerMP
+Import: net.minecraft.entity.Entity
+Import: net.minecraft.advancements.AdvancementProgress
+Import: net.minecraft.advancements.Advancement
+Adding 1 imports
+        java.util.Iterator
+End  Processing: net/mcreator/sexmod/MCreatorCumBlockAdded.java
+
+Start Processing: net/mcreator/sexmod/MCreatorCumMobplayerCollidesBlock.java
+New Key: class net/mcreator/sexmod/Elementssexmod
+New Key: class net/mcreator/sexmod/Elementssexmod
+FOUND CONSTR method net/mcreator/sexmod/MCreatorCumMobplayerCollidesBlock/MCreatorCumMobplayerCollidesBlock (Lnet/mcreator/sexmod/Elementssexmod;)V net/mcreator/sexmod/MCreatorCumMobplayerCollidesBlock
+Rename method net/minecraft/entity/EntityLivingBase/addPotionEffect (Lnet/minecraft/potion/PotionEffect;)V[1081,1096]::addPotionEffect->func_70690_d
+Rename field net/minecraft/init/MobEffects/SPEED[1122,1127]::SPEED->field_76424_c
+Rename field net/minecraft/entity/player/EntityPlayerMP/mcServer[1281,1289]::mcServer->field_71133_b
+Rename method net/minecraft/server/MinecraftServer/getAdvancementManager ()Lnet/minecraft/advancements/AdvancementManager;[1296,1317]::getAdvancementManager->func_191949_aK
+Rename method net/minecraft/advancements/AdvancementManager/getAdvancement (Lnet/minecraft/util/ResourceLocation;)Lnet/minecraft/advancements/Advancement;[1313,1327]::getAdvancement->func_192778_a
+Rename method net/minecraft/entity/player/EntityPlayerMP/getAdvancements ()Lnet/minecraft/advancements/PlayerAdvancements;[1439,1454]::getAdvancements->func_192039_O
+Rename method net/minecraft/advancements/PlayerAdvancements/getProgress (Lnet/minecraft/advancements/Advancement;)Lnet/minecraft/advancements/AdvancementProgress;[1455,1466]::getProgress->func_192747_a
+Rename method net/minecraft/advancements/AdvancementProgress/isDone ()Z[1490,1496]::isDone->func_192105_a
+Rename method net/minecraft/advancements/AdvancementProgress/getRemaningCriteria ()Ljava/lang/Iterable;[1540,1559]::getRemaningCriteria->func_192107_d
+Rename method net/minecraft/entity/player/EntityPlayerMP/getAdvancements ()Lnet/minecraft/advancements/PlayerAdvancements;[1691,1706]::getAdvancements->func_192039_O
+Rename method net/minecraft/advancements/PlayerAdvancements/grantCriterion (Lnet/minecraft/advancements/Advancement;Ljava/lang/String;)Z[1707,1721]::grantCriterion->func_192750_a
+Import: net.minecraft.util.ResourceLocation
+Import: net.minecraft.server.MinecraftServer
+Import: net.minecraft.potion.PotionEffect
+Import: net.minecraft.init.MobEffects
+Import: net.minecraft.entity.player.EntityPlayerMP
+Import: net.minecraft.entity.EntityLivingBase
+Import: net.minecraft.entity.Entity
+Import: net.minecraft.advancements.AdvancementProgress
+Import: net.minecraft.advancements.Advancement
+Adding 1 imports
+        java.util.Iterator
+End  Processing: net/mcreator/sexmod/MCreatorCumMobplayerCollidesBlock.java
+
+Start Processing: net/mcreator/sexmod/MCreatorFeminizing.java
+New Key: class net/mcreator/sexmod/Elementssexmod
+New Key: class net/mcreator/sexmod/Elementssexmod
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/sexmod/MCreatorFeminizing/MCreatorFeminizing (Lnet/mcreator/sexmod/Elementssexmod;)V net/mcreator/sexmod/MCreatorFeminizing
+FOUND CONSTR method net/mcreator/sexmod/MCreatorFeminizing/PotionTypeCustom/PotionTypeCustom ()V net/mcreator/sexmod/MCreatorFeminizing/PotionTypeCustom
+FOUND CONSTR method net/mcreator/sexmod/MCreatorFeminizing/PotionCustom/PotionCustom ()V net/mcreator/sexmod/MCreatorFeminizing/PotionCustom
+Rename method net/minecraft/potion/Potion/setPotionName (Ljava/lang/String;)Lnet/minecraft/potion/Potion;[1857,1870]::setPotionName->func_76390_b
+Rename method net/minecraft/potion/Potion/isInstant ()Z[2014,2023]::isInstant->func_76403_b
+Rename field net/minecraft/init/Items/MILK_BUCKET[2193,2204]::MILK_BUCKET->field_151117_aB
+Rename method net/minecraft/potion/Potion/applyAttributesModifiersToEntity (Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/entity/ai/attributes/AbstractAttributeMap;I)V[2466,2498]::applyAttributesModifiersToEntity->func_111185_a
+Rename field net/minecraft/entity/Entity/world[2584,2589]::world->field_70170_p
+Rename field net/minecraft/entity/Entity/posX[2624,2628]::posX->field_70165_t
+Rename field net/minecraft/entity/Entity/posY[2664,2668]::posY->field_70163_u
+Rename field net/minecraft/entity/Entity/posZ[2704,2708]::posZ->field_70161_v
+Rename method net/minecraft/potion/Potion/removeAttributesModifiersFromEntity (Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/entity/ai/attributes/AbstractAttributeMap;I)V[2927,2962]::removeAttributesModifiersFromEntity->func_111187_a
+Rename method net/minecraft/potion/Potion/removeAttributesModifiersFromEntity (Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/entity/ai/attributes/AbstractAttributeMap;I)V[3030,3065]::removeAttributesModifiersFromEntity->func_111187_a
+Rename field net/minecraft/entity/Entity/world[3105,3110]::world->field_70170_p
+Rename field net/minecraft/entity/Entity/posX[3145,3149]::posX->field_70165_t
+Rename field net/minecraft/entity/Entity/posY[3185,3189]::posY->field_70163_u
+Rename field net/minecraft/entity/Entity/posZ[3225,3229]::posZ->field_70161_v
+Rename field net/minecraft/client/Minecraft/currentScreen[3691,3704]::currentScreen->field_71462_r
+Rename method net/minecraft/client/Minecraft/getTextureManager ()Lnet/minecraft/client/renderer/texture/TextureManager;[3724,3741]::getTextureManager->func_110434_K
+Rename method net/minecraft/client/renderer/texture/TextureManager/bindTexture (Lnet/minecraft/util/ResourceLocation;)V[3740,3751]::bindTexture->func_110577_a
+Rename method net/minecraft/client/gui/Gui/drawModalRectWithCustomSizedTexture (IIFFIIFF)V[3776,3811]::drawModalRectWithCustomSizedTexture->func_146110_a
+Rename method net/minecraft/client/Minecraft/getTextureManager ()Lnet/minecraft/client/renderer/texture/TextureManager;[3981,3998]::getTextureManager->func_110434_K
+Rename method net/minecraft/client/renderer/texture/TextureManager/bindTexture (Lnet/minecraft/util/ResourceLocation;)V[3997,4008]::bindTexture->func_110577_a
+Rename method net/minecraft/client/gui/Gui/drawModalRectWithCustomSizedTexture (IIFFIIFF)V[4032,4067]::drawModalRectWithCustomSizedTexture->func_146110_a
+Rename method net/minecraft/potion/Potion/isReady (II)Z[4121,4128]::isReady->func_76397_a
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.fml.common.registry.ForgeRegistries
+Import: net.minecraftforge.fml.common.event.FMLInitializationEvent
+Adding 13 imports
+        java.util.ArrayList
+        java.util.List
+        net.minecraft.client.Minecraft
+        net.minecraft.client.gui.Gui
+        net.minecraft.entity.EntityLivingBase
+        net.minecraft.entity.ai.attributes.AbstractAttributeMap
+        net.minecraft.init.Items
+        net.minecraft.item.ItemStack
+        net.minecraft.potion.Potion
+        net.minecraft.potion.PotionEffect
+        net.minecraft.potion.PotionType
+        net.minecraft.util.ResourceLocation
+        net.minecraft.world.World
+End  Processing: net/mcreator/sexmod/MCreatorFeminizing.java
+
+Start Processing: net/mcreator/sexmod/MCreatorFeminizingPotionExpires.java
+New Key: class net/mcreator/sexmod/Elementssexmod
+New Key: class net/mcreator/sexmod/Elementssexmod
+FOUND CONSTR method net/mcreator/sexmod/MCreatorFeminizingPotionExpires/MCreatorFeminizingPotionExpires (Lnet/mcreator/sexmod/Elementssexmod;)V net/mcreator/sexmod/MCreatorFeminizingPotionExpires
+Rename method net/minecraft/world/World/setBlockState (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)Z[1235,1248]::setBlockState->func_180501_a
+Rename method net/minecraft/block/Block/getDefaultState ()Lnet/minecraft/block/state/IBlockState;[1308,1323]::getDefaultState->func_176223_P
+Import: net.minecraft.world.World
+Import: net.minecraft.util.math.BlockPos
+End  Processing: net/mcreator/sexmod/MCreatorFeminizingPotionExpires.java
+
+Start Processing: net/mcreator/sexmod/MCreatorFeminizingPotionStartedapplied.java
+New Key: class net/mcreator/sexmod/Elementssexmod
+New Key: class net/mcreator/sexmod/Elementssexmod
+FOUND CONSTR method net/mcreator/sexmod/MCreatorFeminizingPotionStartedapplied/MCreatorFeminizingPotionStartedapplied (Lnet/mcreator/sexmod/Elementssexmod;)V net/mcreator/sexmod/MCreatorFeminizingPotionStartedapplied
+End  Processing: net/mcreator/sexmod/MCreatorFeminizingPotionStartedapplied.java
+
+Start Processing: net/mcreator/sexmod/MCreatorHRTSyringeRightClickedInAir.java
+New Key: class net/mcreator/sexmod/Elementssexmod
+New Key: class net/mcreator/sexmod/Elementssexmod
+FOUND CONSTR method net/mcreator/sexmod/MCreatorHRTSyringeRightClickedInAir/MCreatorHRTSyringeRightClickedInAir (Lnet/mcreator/sexmod/Elementssexmod;)V net/mcreator/sexmod/MCreatorHRTSyringeRightClickedInAir
+Rename method net/minecraft/entity/Entity/isSneaking ()Z[1145,1155]::isSneaking->func_70093_af
+Rename field net/minecraft/entity/player/EntityPlayer/inventory[1234,1243]::inventory->field_71071_by
+Rename method net/minecraft/entity/player/InventoryPlayer/clearMatchingItems (Lnet/minecraft/item/Item;IILnet/minecraft/nbt/NBTTagCompound;)I[1257,1275]::clearMatchingItems->func_174925_a
+Rename method net/minecraft/item/ItemStack/getItem ()Lnet/minecraft/item/Item;[1323,1330]::getItem->func_77973_b
+Rename method net/minecraft/entity/EntityLivingBase/addPotionEffect (Lnet/minecraft/potion/PotionEffect;)V[1591,1606]::addPotionEffect->func_70690_d
+New Key: class net/minecraftforge/event/entity/player/PlayerInteractEvent
+Rename method net/minecraft/util/math/Vec3i/getX ()I[1857,1861]::getX->func_177958_n
+Rename method net/minecraft/util/math/Vec3i/getY ()I[1900,1904]::getY->func_177956_o
+Rename method net/minecraft/util/math/Vec3i/getZ ()I[1943,1947]::getZ->func_177952_p
+Import: net.minecraftforge.items.ItemHandlerHelper
+Import: net.minecraftforge.fml.common.eventhandler.SubscribeEvent
+Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+Import: net.minecraftforge.event.entity.player.PlayerInteractEvent
+Import: net.minecraftforge.common.MinecraftForge
+Adding 6 imports
+        net.minecraft.entity.Entity
+        net.minecraft.entity.EntityLivingBase
+        net.minecraft.entity.player.EntityPlayer
+        net.minecraft.item.ItemStack
+        net.minecraft.potion.PotionEffect
+        net.minecraft.world.World
+End  Processing: net/mcreator/sexmod/MCreatorHRTSyringeRightClickedInAir.java
+
+Start Processing: net/mcreator/sexmod/MCreatorHRT_Syringe.java
+New Key: class net/mcreator/sexmod/Elementssexmod
+New Key: class net/mcreator/sexmod/Elementssexmod
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/sexmod/MCreatorHRT_Syringe/MCreatorHRT_Syringe (Lnet/mcreator/sexmod/Elementssexmod;)V net/mcreator/sexmod/MCreatorHRT_Syringe
+FOUND CONSTR method net/mcreator/sexmod/MCreatorHRT_Syringe/ItemCustom/ItemCustom ()V net/mcreator/sexmod/MCreatorHRT_Syringe/ItemCustom
+Rename method net/minecraft/item/Item/setMaxDamage (I)Lnet/minecraft/item/Item;[1174,1186]::setMaxDamage->func_77656_e
+Rename field net/minecraft/item/Item/maxStackSize[1195,1207]::maxStackSize->field_77777_bU
+Rename method net/minecraft/item/Item/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/item/Item;[1219,1237]::setUnlocalizedName->func_77655_b
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[1288,1302]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/getItemEnchantability ()I[1356,1377]::getItemEnchantability->func_77619_b
+Rename method net/minecraft/item/Item/getMaxItemUseDuration (Lnet/minecraft/item/ItemStack;)I[1421,1442]::getMaxItemUseDuration->func_77626_a
+Rename method net/minecraft/item/Item/getDestroySpeed (Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F[1507,1522]::getDestroySpeed->func_150893_a
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Adding 4 imports
+        net.minecraft.block.state.IBlockState
+        net.minecraft.client.renderer.block.model.ModelResourceLocation
+        net.minecraft.item.Item
+        net.minecraft.item.ItemStack
+End  Processing: net/mcreator/sexmod/MCreatorHRT_Syringe.java
+
+Start Processing: net/mcreator/sexmod/MCreatorSex.java
+New Key: class net/mcreator/sexmod/Elementssexmod
+New Key: class net/mcreator/sexmod/Elementssexmod
+FOUND CONSTR method net/mcreator/sexmod/MCreatorSex/MCreatorSex (Lnet/mcreator/sexmod/Elementssexmod;)V net/mcreator/sexmod/MCreatorSex
+Rename method net/minecraft/command/ICommand/getName ()Ljava/lang/String;[924,931]::getName->func_71517_b
+Rename method net/minecraft/command/ICommand/getName ()Ljava/lang/String;[951,958]::getName->func_71517_b
+Rename method net/minecraft/command/ICommand/checkPermission (Lnet/minecraft/server/MinecraftServer;Lnet/minecraft/command/ICommandSender;)Z[1006,1021]::checkPermission->func_184882_a
+Rename method net/minecraft/command/ICommand/getAliases ()Ljava/util/List;[1119,1129]::getAliases->func_71514_a
+Rename method net/minecraft/command/ICommand/getTabCompletions (Lnet/minecraft/server/MinecraftServer;Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;Lnet/minecraft/util/math/BlockPos;)Ljava/util/List;[1199,1216]::getTabCompletions->func_184883_a
+Rename method net/minecraft/command/ICommand/isUsernameIndex ([Ljava/lang/String;I)Z[1357,1372]::isUsernameIndex->func_82358_a
+Rename method net/minecraft/command/ICommand/getName ()Ljava/lang/String;[1454,1461]::getName->func_71517_b
+Rename method net/minecraft/command/ICommand/getUsage (Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;[1526,1534]::getUsage->func_71518_a
+Rename method net/minecraft/command/ICommand/execute (Lnet/minecraft/server/MinecraftServer;Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V[1630,1637]::execute->func_184881_a
+Rename method net/minecraft/command/ICommandSender/getPosition ()Lnet/minecraft/util/math/BlockPos;[1726,1737]::getPosition->func_180425_c
+Rename method net/minecraft/util/math/Vec3i/getX ()I[1742,1746]::getX->func_177958_n
+Rename method net/minecraft/command/ICommandSender/getPosition ()Lnet/minecraft/util/math/BlockPos;[1778,1789]::getPosition->func_180425_c
+Rename method net/minecraft/util/math/Vec3i/getY ()I[1794,1798]::getY->func_177956_o
+Rename method net/minecraft/command/ICommandSender/getPosition ()Lnet/minecraft/util/math/BlockPos;[1830,1841]::getPosition->func_180425_c
+Rename method net/minecraft/util/math/Vec3i/getZ ()I[1846,1850]::getZ->func_177952_p
+Rename method net/minecraft/command/ICommandSender/getCommandSenderEntity ()Lnet/minecraft/entity/Entity;[1890,1912]::getCommandSenderEntity->func_174793_f
+Rename field net/minecraft/entity/Entity/world[1959,1964]::world->field_70170_p
+Import: net.minecraftforge.fml.common.event.FMLServerStartingEvent
+Adding 10 imports
+        java.util.ArrayList
+        java.util.Arrays
+        java.util.HashMap
+        java.util.List
+        net.minecraft.command.ICommand
+        net.minecraft.command.ICommandSender
+        net.minecraft.entity.Entity
+        net.minecraft.server.MinecraftServer
+        net.minecraft.util.math.BlockPos
+        net.minecraft.world.World
+End  Processing: net/mcreator/sexmod/MCreatorSex.java
+
+Start Processing: net/mcreator/sexmod/MCreatorSexCommandExecuted.java
+New Key: class net/mcreator/sexmod/Elementssexmod
+New Key: class net/mcreator/sexmod/Elementssexmod
+FOUND CONSTR method net/mcreator/sexmod/MCreatorSexCommandExecuted/MCreatorSexCommandExecuted (Lnet/mcreator/sexmod/Elementssexmod;)V net/mcreator/sexmod/MCreatorSexCommandExecuted
+Rename method net/minecraft/world/World/setWorldTime (J)V[580,592]::setWorldTime->func_72877_b
+Import: net.minecraft.world.World
+End  Processing: net/mcreator/sexmod/MCreatorSexCommandExecuted.java
+
+Start Processing: net/mcreator/sexmod/MCreatorSexMod.java
+New Key: class net/mcreator/sexmod/Elementssexmod
+New Key: class net/mcreator/sexmod/Elementssexmod
+FOUND CONSTR method net/mcreator/sexmod/MCreatorSexMod/MCreatorSexMod (Lnet/mcreator/sexmod/Elementssexmod;)V net/mcreator/sexmod/MCreatorSexMod
+Rename method net/minecraft/creativetab/CreativeTabs/getTabIconItem ()Lnet/minecraft/item/ItemStack;[544,558]::getTabIconItem->func_78016_d
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Adding 2 imports
+        net.minecraft.creativetab.CreativeTabs
+        net.minecraft.item.ItemStack
+End  Processing: net/mcreator/sexmod/MCreatorSexMod.java
+
+Start Processing: net/mcreator/sexmod/MCreatorSexgui.java
+New Key: class net/mcreator/sexmod/Elementssexmod
+New Key: class net/mcreator/sexmod/Elementssexmod
+FOUND CONSTR method net/mcreator/sexmod/MCreatorSexgui/MCreatorSexgui (Lnet/mcreator/sexmod/Elementssexmod;)V net/mcreator/sexmod/MCreatorSexgui
+FOUND CONSTR method net/mcreator/sexmod/MCreatorSexgui/GuiContainerMod/GuiContainerMod (Lnet/minecraft/world/World;IIILnet/minecraft/entity/player/EntityPlayer;)V net/mcreator/sexmod/MCreatorSexgui/GuiContainerMod
+Rename method net/minecraft/inventory/Container/canInteractWith (Lnet/minecraft/entity/player/EntityPlayer;)Z[1714,1729]::canInteractWith->func_75145_c
+Rename method net/minecraft/inventory/Container/onContainerClosed (Lnet/minecraft/entity/player/EntityPlayer;)V[1802,1819]::onContainerClosed->func_75134_a
+Rename method net/minecraft/inventory/Container/onContainerClosed (Lnet/minecraft/entity/player/EntityPlayer;)V[1850,1867]::onContainerClosed->func_75134_a
+Rename field net/minecraft/world/World/isRemote[1985,1993]::isRemote->field_72995_K
+FOUND CONSTR method net/mcreator/sexmod/MCreatorSexgui/GuiWindow/GuiWindow (Lnet/minecraft/world/World;IIILnet/minecraft/entity/player/EntityPlayer;)V net/mcreator/sexmod/MCreatorSexgui/GuiWindow
+Rename field net/minecraft/client/gui/inventory/GuiContainer/xSize[2531,2536]::xSize->field_146999_f
+Rename field net/minecraft/client/gui/inventory/GuiContainer/ySize[2562,2567]::ySize->field_147000_g
+Rename method net/minecraft/client/gui/GuiScreen/drawScreen (IIF)V[2619,2629]::drawScreen->func_73863_a
+Rename method net/minecraft/client/gui/GuiScreen/drawDefaultBackground ()V[2687,2708]::drawDefaultBackground->func_146276_q_
+Rename method net/minecraft/client/gui/GuiScreen/drawScreen (IIF)V[2715,2725]::drawScreen->func_73863_a
+Rename method net/minecraft/client/gui/inventory/GuiContainer/renderHoveredToolTip (II)V[2768,2788]::renderHoveredToolTip->func_191948_b
+Rename method net/minecraft/client/gui/inventory/GuiContainer/drawGuiContainerBackgroundLayer (FII)V[2837,2868]::drawGuiContainerBackgroundLayer->func_146976_a
+Rename field net/minecraft/client/gui/Gui/zLevel[2933,2939]::zLevel->field_73735_i
+Rename method net/minecraft/client/gui/GuiScreen/updateScreen ()V[2992,3004]::updateScreen->func_73876_c
+Rename method net/minecraft/client/gui/GuiScreen/updateScreen ()V[3019,3031]::updateScreen->func_73876_c
+Rename method net/minecraft/client/gui/GuiScreen/mouseClicked (III)V[3073,3085]::mouseClicked->func_73864_a
+Rename method net/minecraft/client/gui/GuiScreen/mouseClicked (III)V[3158,3170]::mouseClicked->func_73864_a
+Rename method net/minecraft/client/gui/GuiScreen/keyTyped (CI)V[3239,3247]::keyTyped->func_73869_a
+Rename method net/minecraft/client/gui/GuiScreen/keyTyped (CI)V[3312,3320]::keyTyped->func_73869_a
+Rename method net/minecraft/client/gui/inventory/GuiContainer/drawGuiContainerForegroundLayer (II)V[3384,3415]::drawGuiContainerForegroundLayer->func_146979_b
+Rename method net/minecraft/client/gui/GuiScreen/onGuiClosed ()V[3455,3466]::onGuiClosed->func_146281_b
+Rename method net/minecraft/client/gui/GuiScreen/onGuiClosed ()V[3483,3494]::onGuiClosed->func_146281_b
+Rename method net/minecraft/client/gui/GuiScreen/initGui ()V[3575,3582]::initGui->func_73866_w_
+Rename method net/minecraft/client/gui/GuiScreen/initGui ()V[3603,3610]::initGui->func_73866_w_
+Rename field net/minecraft/client/gui/inventory/GuiContainer/guiLeft[3629,3636]::guiLeft->field_147003_i
+Rename field net/minecraft/client/gui/GuiScreen/width[3652,3657]::width->field_146294_l
+Rename field net/minecraft/client/gui/inventory/GuiContainer/guiTop[3688,3694]::guiTop->field_147009_r
+Rename field net/minecraft/client/gui/GuiScreen/height[3711,3717]::height->field_146295_m
+Rename field net/minecraft/client/gui/GuiScreen/buttonList[3786,3796]::buttonList->field_146292_n
+Rename field net/minecraft/client/gui/GuiScreen/buttonList[3819,3829]::buttonList->field_146292_n
+Rename field net/minecraft/client/gui/inventory/GuiContainer/guiLeft[3860,3867]::guiLeft->field_147003_i
+Rename field net/minecraft/client/gui/inventory/GuiContainer/guiTop[3886,3892]::guiTop->field_147009_r
+Rename method net/minecraft/client/gui/GuiScreen/actionPerformed (Lnet/minecraft/client/gui/GuiButton;)V[3970,3985]::actionPerformed->func_146284_a
+Rename field net/minecraft/client/gui/GuiButton/id[4078,4080]::id->field_146127_k
+Rename field net/minecraft/client/gui/GuiButton/id[4143,4145]::id->field_146127_k
+Rename method net/minecraft/client/gui/GuiScreen/doesGuiPauseGame ()Z[4207,4223]::doesGuiPauseGame->func_73868_f
+Rename field net/minecraft/network/NetHandlerPlayServer/player[4526,4532]::player->field_147369_b
+Rename method net/minecraft/entity/player/EntityPlayerMP/getServerWorld ()Lnet/minecraft/world/WorldServer;[4553,4567]::getServerWorld->func_71121_q
+Rename method net/minecraft/util/IThreadListener/addScheduledTask (Ljava/lang/Runnable;)Lcom/google/common/util/concurrent/ListenableFuture;[4568,4584]::addScheduledTask->func_152344_a
+Rename field net/minecraft/network/NetHandlerPlayServer/player[5055,5061]::player->field_147369_b
+Rename method net/minecraft/entity/player/EntityPlayerMP/getServerWorld ()Lnet/minecraft/world/WorldServer;[5082,5096]::getServerWorld->func_71121_q
+Rename method net/minecraft/util/IThreadListener/addScheduledTask (Ljava/lang/Runnable;)Lcom/google/common/util/concurrent/ListenableFuture;[5097,5113]::addScheduledTask->func_152344_a
+FOUND CONSTR method net/mcreator/sexmod/MCreatorSexgui/GUIButtonPressedMessage/GUIButtonPressedMessage ()V net/mcreator/sexmod/MCreatorSexgui/GUIButtonPressedMessage
+FOUND CONSTR method net/mcreator/sexmod/MCreatorSexgui/GUIButtonPressedMessage/GUIButtonPressedMessage (IIII)V net/mcreator/sexmod/MCreatorSexgui/GUIButtonPressedMessage
+FOUND CONSTR method net/mcreator/sexmod/MCreatorSexgui/GUISlotChangedMessage/GUISlotChangedMessage ()V net/mcreator/sexmod/MCreatorSexgui/GUISlotChangedMessage
+FOUND CONSTR method net/mcreator/sexmod/MCreatorSexgui/GUISlotChangedMessage/GUISlotChangedMessage (IIIIII)V net/mcreator/sexmod/MCreatorSexgui/GUISlotChangedMessage
+Rename field net/minecraft/entity/Entity/world[6998,7003]::world->field_70170_p
+Rename method net/minecraft/world/World/isBlockLoaded (Lnet/minecraft/util/math/BlockPos;)Z[7088,7101]::isBlockLoaded->func_175667_e
+Rename field net/minecraft/entity/Entity/world[7289,7294]::world->field_70170_p
+Rename method net/minecraft/world/World/isBlockLoaded (Lnet/minecraft/util/math/BlockPos;)Z[7379,7392]::isBlockLoaded->func_175667_e
+Import: org.lwjgl.opengl.GL11
+Import: org.lwjgl.input.Keyboard
+Adding 14 imports
+        java.io.IOException
+        java.util.HashMap
+        net.minecraft.client.gui.GuiButton
+        net.minecraft.client.gui.inventory.GuiContainer
+        net.minecraft.entity.player.EntityPlayer
+        net.minecraft.entity.player.EntityPlayerMP
+        net.minecraft.inventory.Container
+        net.minecraft.util.math.BlockPos
+        net.minecraft.world.World
+        net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+        net.minecraftforge.fml.common.network.simpleimpl.IMessage
+        net.minecraftforge.fml.common.network.simpleimpl.IMessageHandler
+        net.minecraftforge.fml.common.network.simpleimpl.MessageContext
+        net.minecraftforge.fml.relauncher.Side
+End  Processing: net/mcreator/sexmod/MCreatorSexgui.java
+
+Start Processing: net/mcreator/sexmod/MCreatorSexitem.java
+New Key: class net/mcreator/sexmod/Elementssexmod
+New Key: class net/mcreator/sexmod/Elementssexmod
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/sexmod/MCreatorSexitem/MCreatorSexitem (Lnet/mcreator/sexmod/Elementssexmod;)V net/mcreator/sexmod/MCreatorSexitem
+FOUND CONSTR method net/mcreator/sexmod/MCreatorSexitem/ItemCustom/ItemCustom ()V net/mcreator/sexmod/MCreatorSexitem/ItemCustom
+Rename method net/minecraft/item/Item/setMaxDamage (I)Lnet/minecraft/item/Item;[1321,1333]::setMaxDamage->func_77656_e
+Rename field net/minecraft/item/Item/maxStackSize[1342,1354]::maxStackSize->field_77777_bU
+Rename method net/minecraft/item/Item/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/item/Item;[1366,1384]::setUnlocalizedName->func_77655_b
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[1427,1441]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/getItemEnchantability ()I[1495,1516]::getItemEnchantability->func_77619_b
+Rename method net/minecraft/item/Item/getMaxItemUseDuration (Lnet/minecraft/item/ItemStack;)I[1560,1581]::getMaxItemUseDuration->func_77626_a
+Rename method net/minecraft/item/Item/getDestroySpeed (Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F[1646,1661]::getDestroySpeed->func_150893_a
+Rename method net/minecraft/item/Item/onItemRightClick (Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;[1779,1795]::onItemRightClick->func_77659_a
+Rename method net/minecraft/item/Item/onItemRightClick (Lnet/minecraft/world/World;Lnet/minecraft/entity/player/EntityPlayer;Lnet/minecraft/util/EnumHand;)Lnet/minecraft/util/ActionResult;[1882,1898]::onItemRightClick->func_77659_a
+Rename method net/minecraft/util/ActionResult/getResult ()Ljava/lang/Object;[1946,1955]::getResult->func_188398_b
+Rename field net/minecraft/entity/Entity/posX[1988,1992]::posX->field_70165_t
+Rename field net/minecraft/entity/Entity/posY[2028,2032]::posY->field_70163_u
+Rename field net/minecraft/entity/Entity/posZ[2068,2072]::posZ->field_70161_v
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Adding 8 imports
+        net.minecraft.block.state.IBlockState
+        net.minecraft.client.renderer.block.model.ModelResourceLocation
+        net.minecraft.entity.player.EntityPlayer
+        net.minecraft.item.Item
+        net.minecraft.item.ItemStack
+        net.minecraft.util.ActionResult
+        net.minecraft.util.EnumHand
+        net.minecraft.world.World
+End  Processing: net/mcreator/sexmod/MCreatorSexitem.java
+
+Start Processing: net/mcreator/sexmod/MCreatorSexitemRightClickedInAir.java
+New Key: class net/mcreator/sexmod/Elementssexmod
+New Key: class net/mcreator/sexmod/Elementssexmod
+FOUND CONSTR method net/mcreator/sexmod/MCreatorSexitemRightClickedInAir/MCreatorSexitemRightClickedInAir (Lnet/mcreator/sexmod/Elementssexmod;)V net/mcreator/sexmod/MCreatorSexitemRightClickedInAir
+Rename field net/minecraft/world/World/isRemote[1604,1612]::isRemote->field_72995_K
+Rename method net/minecraft/entity/player/EntityPlayer/sendStatusMessage (Lnet/minecraft/util/text/ITextComponent;Z)V[1649,1666]::sendStatusMessage->func_146105_b
+Import: net.minecraft.world.World
+Import: net.minecraft.util.text.TextComponentString
+Import: net.minecraft.entity.player.EntityPlayer
+Import: net.minecraft.entity.Entity
+End  Processing: net/mcreator/sexmod/MCreatorSexitemRightClickedInAir.java
+
+Start Processing: net/mcreator/sexmod/MCreatorSexitemRightClickedOnBlock.java
+New Key: class net/mcreator/sexmod/Elementssexmod
+New Key: class net/mcreator/sexmod/Elementssexmod
+FOUND CONSTR method net/mcreator/sexmod/MCreatorSexitemRightClickedOnBlock/MCreatorSexitemRightClickedOnBlock (Lnet/mcreator/sexmod/Elementssexmod;)V net/mcreator/sexmod/MCreatorSexitemRightClickedOnBlock
+Import: net.minecraft.world.World
+Import: net.minecraft.entity.player.EntityPlayer
+Import: net.minecraft.entity.Entity
+End  Processing: net/mcreator/sexmod/MCreatorSexitemRightClickedOnBlock.java
+
+Start Processing: net/mcreator/sexmod/MCreatorSyringe.java
+New Key: class net/mcreator/sexmod/Elementssexmod
+New Key: class net/mcreator/sexmod/Elementssexmod
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/sexmod/MCreatorSyringe/MCreatorSyringe (Lnet/mcreator/sexmod/Elementssexmod;)V net/mcreator/sexmod/MCreatorSyringe
+FOUND CONSTR method net/mcreator/sexmod/MCreatorSyringe/ItemCustom/ItemCustom ()V net/mcreator/sexmod/MCreatorSyringe/ItemCustom
+Rename method net/minecraft/item/Item/setMaxDamage (I)Lnet/minecraft/item/Item;[1158,1170]::setMaxDamage->func_77656_e
+Rename field net/minecraft/item/Item/maxStackSize[1179,1191]::maxStackSize->field_77777_bU
+Rename method net/minecraft/item/Item/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/item/Item;[1203,1221]::setUnlocalizedName->func_77655_b
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[1264,1278]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/getItemEnchantability ()I[1332,1353]::getItemEnchantability->func_77619_b
+Rename method net/minecraft/item/Item/getMaxItemUseDuration (Lnet/minecraft/item/ItemStack;)I[1397,1418]::getMaxItemUseDuration->func_77626_a
+Rename method net/minecraft/item/Item/getDestroySpeed (Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F[1483,1498]::getDestroySpeed->func_150893_a
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Adding 4 imports
+        net.minecraft.block.state.IBlockState
+        net.minecraft.client.renderer.block.model.ModelResourceLocation
+        net.minecraft.item.Item
+        net.minecraft.item.ItemStack
+End  Processing: net/mcreator/sexmod/MCreatorSyringe.java
+
+Start Processing: net/mcreator/sexmod/MCreatorTestmob.java
+New Key: class net/mcreator/sexmod/Elementssexmod
+New Key: class net/mcreator/sexmod/Elementssexmod
+FOUND CONSTR method net/mcreator/sexmod/MCreatorTestmob/MCreatorTestmob (Lnet/mcreator/sexmod/Elementssexmod;)V net/mcreator/sexmod/MCreatorTestmob
+Rename field net/minecraft/world/biome/Biome/REGISTRY[2064,2072]::REGISTRY->field_185377_q
+Rename method net/minecraft/client/renderer/entity/Render/getEntityTexture (Lnet/minecraft/entity/Entity;)Lnet/minecraft/util/ResourceLocation;[2785,2801]::getEntityTexture->func_110775_a
+Rename method net/minecraft/client/renderer/entity/RenderLivingBase/addLayer (Lnet/minecraft/client/renderer/entity/layers/LayerRenderer;)Z[2919,2927]::addLayer->func_177094_a
+Rename method net/minecraft/client/renderer/entity/layers/LayerArmorBase/initArmor ()V[3033,3042]::initArmor->func_177177_a
+Rename field net/minecraft/client/renderer/entity/layers/LayerArmorBase/modelLeggings[3062,3075]::modelLeggings->field_177189_c
+Rename field net/minecraft/client/renderer/entity/layers/LayerArmorBase/modelArmor[3119,3129]::modelArmor->field_177186_d
+FOUND CONSTR method net/mcreator/sexmod/MCreatorTestmob/EntityCustom/EntityCustom (Lnet/minecraft/world/World;)V net/mcreator/sexmod/MCreatorTestmob/EntityCustom
+Rename method net/minecraft/entity/Entity/setSize (FF)V[3336,3343]::setSize->func_70105_a
+Rename field net/minecraft/entity/EntityLiving/experienceValue[3367,3382]::experienceValue->field_70728_aV
+Rename field net/minecraft/entity/Entity/isImmuneToFire[3396,3410]::isImmuneToFire->field_70178_ae
+Rename method net/minecraft/entity/EntityLiving/setNoAI (Z)V[3424,3431]::setNoAI->func_94061_f
+Rename field net/minecraft/entity/EntityLiving/tasks[3454,3459]::tasks->field_70714_bg
+Rename method net/minecraft/entity/ai/EntityAITasks/addTask (ILnet/minecraft/entity/ai/EntityAIBase;)V[3469,3476]::addTask->func_75776_a
+Rename field net/minecraft/entity/EntityLiving/tasks[3524,3529]::tasks->field_70714_bg
+Rename method net/minecraft/entity/ai/EntityAITasks/addTask (ILnet/minecraft/entity/ai/EntityAIBase;)V[3539,3546]::addTask->func_75776_a
+Rename field net/minecraft/entity/EntityLiving/tasks[3593,3598]::tasks->field_70714_bg
+Rename method net/minecraft/entity/ai/EntityAITasks/addTask (ILnet/minecraft/entity/ai/EntityAIBase;)V[3608,3615]::addTask->func_75776_a
+Rename field net/minecraft/entity/EntityLiving/tasks[3662,3667]::tasks->field_70714_bg
+Rename method net/minecraft/entity/ai/EntityAITasks/addTask (ILnet/minecraft/entity/ai/EntityAIBase;)V[3677,3684]::addTask->func_75776_a
+Rename field net/minecraft/entity/EntityLiving/tasks[3748,3753]::tasks->field_70714_bg
+Rename method net/minecraft/entity/ai/EntityAITasks/addTask (ILnet/minecraft/entity/ai/EntityAIBase;)V[3763,3770]::addTask->func_75776_a
+Rename method net/minecraft/entity/EntityLivingBase/getCreatureAttribute ()Lnet/minecraft/entity/EnumCreatureAttribute;[3862,3882]::getCreatureAttribute->func_70668_bt
+Rename method net/minecraft/entity/EntityLiving/getDropItem ()Lnet/minecraft/item/Item;[3962,3973]::getDropItem->func_146068_u
+Rename method net/minecraft/entity/EntityLiving/getAmbientSound ()Lnet/minecraft/util/SoundEvent;[4057,4072]::getAmbientSound->func_184639_G
+Rename field net/minecraft/util/SoundEvent/REGISTRY[4148,4156]::REGISTRY->field_187505_a
+Rename method net/minecraft/util/registry/IRegistry/getObject (Ljava/lang/Object;)Ljava/lang/Object;[4163,4172]::getObject->func_82594_a
+Rename method net/minecraft/entity/EntityLivingBase/getHurtSound (Lnet/minecraft/util/DamageSource;)Lnet/minecraft/util/SoundEvent;[4263,4275]::getHurtSound->func_184601_bQ
+Rename field net/minecraft/util/SoundEvent/REGISTRY[4370,4378]::REGISTRY->field_187505_a
+Rename method net/minecraft/util/registry/IRegistry/getObject (Ljava/lang/Object;)Ljava/lang/Object;[4385,4394]::getObject->func_82594_a
+Rename method net/minecraft/entity/EntityLivingBase/getDeathSound ()Lnet/minecraft/util/SoundEvent;[4504,4517]::getDeathSound->func_184615_bR
+Rename field net/minecraft/util/SoundEvent/REGISTRY[4596,4604]::REGISTRY->field_187505_a
+Rename method net/minecraft/util/registry/IRegistry/getObject (Ljava/lang/Object;)Ljava/lang/Object;[4611,4620]::getObject->func_82594_a
+Rename method net/minecraft/entity/EntityLivingBase/getSoundVolume ()F[4710,4724]::getSoundVolume->func_70599_aP
+Rename method net/minecraft/entity/EntityLivingBase/applyEntityAttributes ()V[4783,4804]::applyEntityAttributes->func_110147_ax
+Rename method net/minecraft/entity/EntityLivingBase/applyEntityAttributes ()V[4812,4833]::applyEntityAttributes->func_110147_ax
+Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[4843,4861]::getEntityAttribute->func_110148_a
+Rename field net/minecraft/entity/SharedMonsterAttributes/ARMOR[4881,4886]::ARMOR->field_188791_g
+Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[4916,4934]::getEntityAttribute->func_110148_a
+Rename field net/minecraft/entity/SharedMonsterAttributes/ARMOR[4954,4959]::ARMOR->field_188791_g
+Rename method net/minecraft/entity/ai/attributes/IAttributeInstance/setBaseValue (D)V[4970,4982]::setBaseValue->func_111128_a
+Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[5002,5020]::getEntityAttribute->func_110148_a
+Rename field net/minecraft/entity/SharedMonsterAttributes/MOVEMENT_SPEED[5040,5054]::MOVEMENT_SPEED->field_111263_d
+Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[5075,5093]::getEntityAttribute->func_110148_a
+Rename field net/minecraft/entity/SharedMonsterAttributes/MOVEMENT_SPEED[5113,5127]::MOVEMENT_SPEED->field_111263_d
+Rename method net/minecraft/entity/ai/attributes/IAttributeInstance/setBaseValue (D)V[5129,5141]::setBaseValue->func_111128_a
+Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[5163,5181]::getEntityAttribute->func_110148_a
+Rename field net/minecraft/entity/SharedMonsterAttributes/MAX_HEALTH[5201,5211]::MAX_HEALTH->field_111267_a
+Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[5236,5254]::getEntityAttribute->func_110148_a
+Rename field net/minecraft/entity/SharedMonsterAttributes/MAX_HEALTH[5274,5284]::MAX_HEALTH->field_111267_a
+Rename method net/minecraft/entity/ai/attributes/IAttributeInstance/setBaseValue (D)V[5290,5302]::setBaseValue->func_111128_a
+Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[5323,5341]::getEntityAttribute->func_110148_a
+Rename field net/minecraft/entity/SharedMonsterAttributes/ATTACK_DAMAGE[5361,5374]::ATTACK_DAMAGE->field_111264_e
+Rename method net/minecraft/entity/EntityLivingBase/getEntityAttribute (Lnet/minecraft/entity/ai/attributes/IAttribute;)Lnet/minecraft/entity/ai/attributes/IAttributeInstance;[5396,5414]::getEntityAttribute->func_110148_a
+Rename field net/minecraft/entity/SharedMonsterAttributes/ATTACK_DAMAGE[5434,5447]::ATTACK_DAMAGE->field_111264_e
+Rename method net/minecraft/entity/ai/attributes/IAttributeInstance/setBaseValue (D)V[5450,5462]::setBaseValue->func_111128_a
+Rename method net/minecraft/entity/EntityAgeable/createChild (Lnet/minecraft/entity/EntityAgeable;)Lnet/minecraft/entity/EntityAgeable;[5512,5523]::createChild->func_90011_a
+Rename field net/minecraft/entity/Entity/world[5578,5583]::world->field_70170_p
+Rename method net/minecraft/entity/Entity/getEyeHeight ()F[5630,5642]::getEyeHeight->func_70047_e
+Rename method net/minecraft/entity/EntityLivingBase/isChild ()Z[5663,5670]::isChild->func_70631_g_
+Rename field net/minecraft/entity/Entity/height[5686,5692]::height->field_70131_O
+Rename method net/minecraft/entity/passive/EntityAnimal/isBreedingItem (Lnet/minecraft/item/ItemStack;)Z[5746,5760]::isBreedingItem->func_70877_b
+Rename field net/minecraft/init/Items/WHEAT[5848,5853]::WHEAT->field_151015_O
+Rename method net/minecraft/item/ItemStack/getItem ()Lnet/minecraft/item/Item;[5875,5882]::getItem->func_77973_b
+Rename method net/minecraft/item/ItemStack/getItem ()Lnet/minecraft/item/Item;[5899,5906]::getItem->func_77973_b
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.EntityRegistry
+Import: net.minecraftforge.fml.common.registry.EntityEntryBuilder
+Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLInitializationEvent
+Import: net.minecraftforge.fml.client.registry.RenderingRegistry
+Adding 22 imports
+        java.util.ArrayList
+        java.util.Iterator
+        net.minecraft.client.model.ModelZombie
+        net.minecraft.client.renderer.entity.RenderBiped
+        net.minecraft.entity.Entity
+        net.minecraft.entity.EntityAgeable
+        net.minecraft.entity.EnumCreatureAttribute
+        net.minecraft.entity.EnumCreatureType
+        net.minecraft.entity.SharedMonsterAttributes
+        net.minecraft.entity.ai.EntityAILeapAtTarget
+        net.minecraft.entity.ai.EntityAILookIdle
+        net.minecraft.entity.ai.EntityAIMate
+        net.minecraft.entity.ai.EntityAISwimming
+        net.minecraft.entity.ai.EntityAIWander
+        net.minecraft.entity.passive.EntityAnimal
+        net.minecraft.init.Items
+        net.minecraft.item.Item
+        net.minecraft.item.ItemStack
+        net.minecraft.util.DamageSource
+        net.minecraft.util.ResourceLocation
+        net.minecraft.world.World
+        net.minecraft.world.biome.Biome
+End  Processing: net/mcreator/sexmod/MCreatorTestmob.java
+
+Start Processing: net/mcreator/sexmod/MCreatorTestmobRightClickedOnEntity.java
+New Key: class net/mcreator/sexmod/Elementssexmod
+New Key: class net/mcreator/sexmod/Elementssexmod
+FOUND CONSTR method net/mcreator/sexmod/MCreatorTestmobRightClickedOnEntity/MCreatorTestmobRightClickedOnEntity (Lnet/mcreator/sexmod/Elementssexmod;)V net/mcreator/sexmod/MCreatorTestmobRightClickedOnEntity
+Rename method net/minecraft/entity/EntityLivingBase/getHeldItemMainhand ()Lnet/minecraft/item/ItemStack;[915,934]::getHeldItemMainhand->func_184614_ca
+Rename field net/minecraft/item/ItemStack/EMPTY[944,949]::EMPTY->field_190927_a
+Rename method net/minecraft/item/ItemStack/getItem ()Lnet/minecraft/item/Item;[960,967]::getItem->func_77973_b
+Rename method net/minecraft/item/ItemStack/getItem ()Lnet/minecraft/item/Item;[1036,1043]::getItem->func_77973_b
+Rename field net/minecraft/entity/player/EntityPlayer/inventory[1124,1133]::inventory->field_71071_by
+Rename method net/minecraft/entity/player/InventoryPlayer/clearMatchingItems (Lnet/minecraft/item/Item;IILnet/minecraft/nbt/NBTTagCompound;)I[1147,1165]::clearMatchingItems->func_174925_a
+Rename method net/minecraft/item/ItemStack/getItem ()Lnet/minecraft/item/Item;[1213,1220]::getItem->func_77973_b
+Rename method net/minecraft/entity/EntityLivingBase/addPotionEffect (Lnet/minecraft/potion/PotionEffect;)V[1481,1496]::addPotionEffect->func_70690_d
+Import: net.minecraftforge.items.ItemHandlerHelper
+Adding 5 imports
+        net.minecraft.entity.Entity
+        net.minecraft.entity.EntityLivingBase
+        net.minecraft.entity.player.EntityPlayer
+        net.minecraft.item.ItemStack
+        net.minecraft.potion.PotionEffect
+End  Processing: net/mcreator/sexmod/MCreatorTestmobRightClickedOnEntity.java
+
+Start Processing: net/mcreator/sexmod/MCreatorUnrefinedestrogen.java
+New Key: class net/mcreator/sexmod/Elementssexmod
+New Key: class net/mcreator/sexmod/Elementssexmod
+New Key: class net/minecraftforge/fml/common/registry/GameRegistry
+FOUND CONSTR method net/mcreator/sexmod/MCreatorUnrefinedestrogen/MCreatorUnrefinedestrogen (Lnet/mcreator/sexmod/Elementssexmod;)V net/mcreator/sexmod/MCreatorUnrefinedestrogen
+FOUND CONSTR method net/mcreator/sexmod/MCreatorUnrefinedestrogen/ItemCustom/ItemCustom ()V net/mcreator/sexmod/MCreatorUnrefinedestrogen/ItemCustom
+Rename method net/minecraft/item/Item/setMaxDamage (I)Lnet/minecraft/item/Item;[1197,1209]::setMaxDamage->func_77656_e
+Rename field net/minecraft/item/Item/maxStackSize[1218,1230]::maxStackSize->field_77777_bU
+Rename method net/minecraft/item/Item/setUnlocalizedName (Ljava/lang/String;)Lnet/minecraft/item/Item;[1243,1261]::setUnlocalizedName->func_77655_b
+Rename method net/minecraft/item/Item/setCreativeTab (Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/item/Item;[1324,1338]::setCreativeTab->func_77637_a
+Rename method net/minecraft/item/Item/getItemEnchantability ()I[1392,1413]::getItemEnchantability->func_77619_b
+Rename method net/minecraft/item/Item/getMaxItemUseDuration (Lnet/minecraft/item/ItemStack;)I[1457,1478]::getMaxItemUseDuration->func_77626_a
+Rename method net/minecraft/item/Item/getDestroySpeed (Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/state/IBlockState;)F[1543,1558]::getDestroySpeed->func_150893_a
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.client.model.ModelLoader
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Adding 4 imports
+        net.minecraft.block.state.IBlockState
+        net.minecraft.client.renderer.block.model.ModelResourceLocation
+        net.minecraft.item.Item
+        net.minecraft.item.ItemStack
+End  Processing: net/mcreator/sexmod/MCreatorUnrefinedestrogen.java
+
+Start Processing: net/mcreator/sexmod/ServerProxysexmod.java
+Import: net.minecraftforge.fml.common.event.FMLServerStartingEvent
+Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLInitializationEvent
+End  Processing: net/mcreator/sexmod/ServerProxysexmod.java
+
+Start Processing: net/mcreator/sexmod/sexmod.java
+New Key: class net/minecraftforge/fml/common/Mod
+New Key: class net/minecraftforge/fml/common/Mod
+New Key: class net/mcreator/sexmod/Elementssexmod
+New Key: class net/minecraftforge/fml/common/Mod
+New Key: class net/minecraftforge/fml/common/Mod
+New Key: class net/minecraftforge/fml/common/Mod
+New Key: class net/minecraftforge/event/RegistryEvent
+New Key: class net/minecraftforge/event/RegistryEvent
+New Key: class net/minecraftforge/event/RegistryEvent
+New Key: class net/minecraftforge/event/RegistryEvent
+New Key: class net/minecraftforge/event/RegistryEvent
+New Key: class net/minecraftforge/event/RegistryEvent
+Import: net.minecraftforge.fml.relauncher.SideOnly
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.registry.GameRegistry
+Import: net.minecraftforge.fml.common.registry.EntityEntry
+Import: net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper
+Import: net.minecraftforge.fml.common.network.NetworkRegistry
+Import: net.minecraftforge.fml.common.eventhandler.SubscribeEvent
+Import: net.minecraftforge.fml.common.event.FMLServerStartingEvent
+Import: net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+Import: net.minecraftforge.fml.common.event.FMLInitializationEvent
+Import: net.minecraftforge.fml.common.SidedProxy
+Import: net.minecraftforge.fml.common.Mod
+Import: net.minecraftforge.fluids.FluidRegistry
+Import: net.minecraftforge.event.RegistryEvent
+Import: net.minecraftforge.common.MinecraftForge
+Import: net.minecraftforge.client.event.ModelRegistryEvent
+Adding 5 imports
+        java.util.function.Supplier
+        net.minecraft.block.Block
+        net.minecraft.item.Item
+        net.minecraft.potion.Potion
+        net.minecraft.world.biome.Biome
+End  Processing: net/mcreator/sexmod/sexmod.java
+
+Start Processing: net/mcreator/sexmod/sexmodVariables.java
+FOUND CONSTR method net/mcreator/sexmod/sexmodVariables/MapVariables/MapVariables ()V net/mcreator/sexmod/sexmodVariables/MapVariables
+FOUND CONSTR method net/mcreator/sexmod/sexmodVariables/MapVariables/MapVariables (Ljava/lang/String;)V net/mcreator/sexmod/sexmodVariables/MapVariables
+Rename method net/minecraft/world/storage/WorldSavedData/readFromNBT (Lnet/minecraft/nbt/NBTTagCompound;)V[820,831]::readFromNBT->func_76184_a
+Rename method net/minecraft/world/storage/WorldSavedData/writeToNBT (Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/nbt/NBTTagCompound;[900,910]::writeToNBT->func_189551_b
+Rename method net/minecraft/world/storage/WorldSavedData/markDirty ()V[1007,1016]::markDirty->func_76185_a
+Rename field net/minecraft/world/World/isRemote[1037,1045]::isRemote->field_72995_K
+Rename method net/minecraft/world/World/getMapStorage ()Lnet/minecraft/world/storage/MapStorage;[1337,1350]::getMapStorage->func_175693_T
+Rename method net/minecraft/world/storage/MapStorage/getOrLoadData (Ljava/lang/Class;Ljava/lang/String;)Lnet/minecraft/world/storage/WorldSavedData;[1353,1366]::getOrLoadData->func_75742_a
+Rename method net/minecraft/world/World/getMapStorage ()Lnet/minecraft/world/storage/MapStorage;[1473,1486]::getMapStorage->func_175693_T
+Rename method net/minecraft/world/storage/MapStorage/setData (Ljava/lang/String;Lnet/minecraft/world/storage/WorldSavedData;)V[1489,1496]::setData->func_75745_a
+FOUND CONSTR method net/mcreator/sexmod/sexmodVariables/WorldVariables/WorldVariables ()V net/mcreator/sexmod/sexmodVariables/WorldVariables
+FOUND CONSTR method net/mcreator/sexmod/sexmodVariables/WorldVariables/WorldVariables (Ljava/lang/String;)V net/mcreator/sexmod/sexmodVariables/WorldVariables
+Rename method net/minecraft/world/storage/WorldSavedData/readFromNBT (Lnet/minecraft/nbt/NBTTagCompound;)V[1832,1843]::readFromNBT->func_76184_a
+Rename method net/minecraft/world/storage/WorldSavedData/writeToNBT (Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/nbt/NBTTagCompound;[1912,1922]::writeToNBT->func_189551_b
+Rename method net/minecraft/world/storage/WorldSavedData/markDirty ()V[2019,2028]::markDirty->func_76185_a
+Rename field net/minecraft/world/World/isRemote[2049,2057]::isRemote->field_72995_K
+Rename field net/minecraft/world/World/provider[2249,2257]::provider->field_73011_w
+Rename method net/minecraft/world/storage/MapStorage/getOrLoadData (Ljava/lang/Class;Ljava/lang/String;)Lnet/minecraft/world/storage/WorldSavedData;[2418,2431]::getOrLoadData->func_75742_a
+Rename method net/minecraft/world/storage/MapStorage/setData (Ljava/lang/String;Lnet/minecraft/world/storage/WorldSavedData;)V[2563,2570]::setData->func_75745_a
+Rename field net/minecraft/network/NetHandlerPlayServer/player[2929,2935]::player->field_147369_b
+Rename method net/minecraft/entity/player/EntityPlayerMP/getServerWorld ()Lnet/minecraft/world/WorldServer;[2944,2958]::getServerWorld->func_71121_q
+Rename method net/minecraft/util/IThreadListener/addScheduledTask (Ljava/lang/Runnable;)Lcom/google/common/util/concurrent/ListenableFuture;[2959,2975]::addScheduledTask->func_152344_a
+Rename field net/minecraft/network/NetHandlerPlayServer/player[3041,3047]::player->field_147369_b
+Rename field net/minecraft/entity/Entity/world[3056,3061]::world->field_70170_p
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[3097,3109]::getMinecraft->func_71410_x
+Rename method net/minecraft/util/IThreadListener/addScheduledTask (Ljava/lang/Runnable;)Lcom/google/common/util/concurrent/ListenableFuture;[3112,3128]::addScheduledTask->func_152344_a
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[3169,3181]::getMinecraft->func_71410_x
+Rename field net/minecraft/client/Minecraft/player[3184,3190]::player->field_71439_g
+Rename field net/minecraft/entity/Entity/world[3198,3203]::world->field_70170_p
+Rename field net/minecraft/world/World/provider[3522,3530]::provider->field_73011_w
+Rename method net/minecraft/world/World/getMapStorage ()Lnet/minecraft/world/storage/MapStorage;[3599,3612]::getMapStorage->func_175693_T
+Rename method net/minecraft/world/storage/MapStorage/setData (Ljava/lang/String;Lnet/minecraft/world/storage/WorldSavedData;)V[3615,3622]::setData->func_75745_a
+Rename method net/minecraft/world/storage/MapStorage/setData (Ljava/lang/String;Lnet/minecraft/world/storage/WorldSavedData;)V[3712,3719]::setData->func_75745_a
+FOUND CONSTR method net/mcreator/sexmod/sexmodVariables/WorldSavedDataSyncMessage/WorldSavedDataSyncMessage ()V net/mcreator/sexmod/sexmodVariables/WorldSavedDataSyncMessage
+FOUND CONSTR method net/mcreator/sexmod/sexmodVariables/WorldSavedDataSyncMessage/WorldSavedDataSyncMessage (ILnet/minecraft/world/storage/WorldSavedData;)V net/mcreator/sexmod/sexmodVariables/WorldSavedDataSyncMessage
+Rename method net/minecraft/world/storage/WorldSavedData/writeToNBT (Lnet/minecraft/nbt/NBTTagCompound;)Lnet/minecraft/nbt/NBTTagCompound;[4210,4220]::writeToNBT->func_189551_b
+Rename method net/minecraft/world/storage/WorldSavedData/readFromNBT (Lnet/minecraft/nbt/NBTTagCompound;)V[4478,4489]::readFromNBT->func_76184_a
+Import: net.minecraftforge.fml.relauncher.Side
+Import: net.minecraftforge.fml.common.network.simpleimpl.MessageContext
+Import: net.minecraftforge.fml.common.network.simpleimpl.IMessageHandler
+Import: net.minecraftforge.fml.common.network.simpleimpl.IMessage
+Import: net.minecraftforge.fml.common.network.ByteBufUtils
+Adding 4 imports
+        net.minecraft.client.Minecraft
+        net.minecraft.nbt.NBTTagCompound
+        net.minecraft.world.World
+        net.minecraft.world.storage.WorldSavedData
+End  Processing: net/mcreator/sexmod/sexmodVariables.java
+

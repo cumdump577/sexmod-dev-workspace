@@ -1,0 +1,31 @@
+{
+  "display": {
+    "background": "minecraft:textures/blocks/stone.png",
+    "icon": {
+      "item": "sexmod:cum"
+    },
+    "title": {
+      "translate": "advancements.enlightenment.title"
+    },
+    "description": {
+      "translate": "advancements.enlightenment.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "enlightenment": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "item": {
+          "item": "sexmod:cum"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  }
+}

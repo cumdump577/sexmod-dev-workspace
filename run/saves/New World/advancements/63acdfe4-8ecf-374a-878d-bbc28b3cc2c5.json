@@ -1,0 +1,15 @@
+{
+  "minecraft:recipes/food/bread": {
+    "criteria": {
+      "has_wheat": "2020-02-24 15:18:19 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "forest": "2020-02-24 15:18:20 -0500",
+      "beaches": "2020-02-24 15:21:01 -0500"
+    },
+    "done": false
+  }
+}
